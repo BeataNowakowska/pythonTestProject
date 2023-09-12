@@ -11,7 +11,7 @@ def pole_kwadratu(bok):
 class MyTestCase(unittest.TestCase):
 
     def test_pole_kwadaratu_bok_2(self):
-        self.assertEqual(pole_kwadratu(2), 4)
+        self.assertEqual(pole_kwadratu(2), 5)
 
     def test_pole_kwadratu_bok_0(self):
         self.assertEqual(pole_kwadratu(0), "Bok nie może być mniejszy od zera")
