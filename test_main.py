@@ -1,5 +1,7 @@
 import unittest
 
+#to jest commit beata prywata
+
 def pole_kwadratu(bok):
     if bok <= 0: return "Bok nie może być mniejszy od zera"
     else:
