@@ -25,5 +25,8 @@ class MyTestCase(unittest.TestCase):
     def test_pole_kwadratu_bok_110(self):
         self.assertEqual(pole_kwadratu(110), "Nie ma takich dużych kwadratów")
 
+    def test_pole_kwadratu_bok_120(self):
+        self.assertEqual(pole_kwadratu(120), "Nie ma takich dużych kwadratów")
+
 if __name__ == '__main__':
     unittest.main()
